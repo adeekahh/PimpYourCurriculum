@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family:"roboto", sans-serif;
+	font-weight:900;
+}
+
+/*.hide{display: none;} */
+
+/*MAIN PAGE*/
+
+.intro-page{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #ea5045;
+
+
+}
+
+.main-title{
+font-size: 128px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	letter-spacing: 8px
+}
+
+/*SlIdEsHoW pAgE*/
+
+.prev, .next{
+	width: 25px;
+  background: none;
+	border: none;
+	margin:2em;
+	font-size: 1em;
+}
+
+.slideshow-rectangle{
+	height: 20px;
+	background-color: white;
+}
+
+.rectangle-1{
+	width: 40px;
+}
+
+.rectangle-2{
+	width: 80px;
+}
+
+.rectangle-3{
+	width: 120px;
+}
+
+.rectangle-4{
+	width: 160px;
+}
+
+.rectangle-5{
+	width: 200px;
+}
+
+
+.slideshow-page{
+	height: 100vh;
+	background-color: #ffb4aa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.slideshow-title{
+	font-size: 72px;
+	text-align: center;
+
+}
+
+.slideshow-inner{
+	color:white;
+	display:flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+
+/*SLIDES*/
+
+.first-semester-page, .second-semester-page, .third-semester-page, .fourth-semester-page, .faq-page{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
