@@ -22,8 +22,6 @@ var FaqSlide = document.querySelector(".faq");
 
 //buttons
 
-var Buttons = document.getElementsByClassName("slide-button");
-
 
 
 var slideIndex = 1;

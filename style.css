@@ -63,6 +63,7 @@ font-size: 128px;
 }
 
 
+
 .slideshow-page{
 	height: 100vh;
 	background-color: #ffb4aa;
@@ -94,3 +95,20 @@ font-size: 128px;
 	align-items: center;
 	height: 100vh;
 }
+
+.semester-title{
+	text-align: center;
+}
+
+
+/*ANIMATION*/
+
+.prev-anim{
+            animation: prev-anim 1s alternate infinite;
+        }
+
+        @keyframes prev-anim{
+            to{
+                transform: translateX(-1000px);
+            }
+        }
